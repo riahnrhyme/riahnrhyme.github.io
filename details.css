@@ -1,0 +1,146 @@
+* { margin:0; padding:0; }
+li { list-style: none; }
+body { font-family: 'Noto Sans KR', sans-serif; font-weight:300; font-size:20px; }
+.clearfix::after { content:''; display:block; clear:both; }
+
+.section { padding:90px 0; }
+.container { width:1300px; margin:0 auto; }
+
+.section1 { background:#f9f8f8 } 
+.section2 { background:url(images/bg.jpg); background-attachment:fixed; background-size:cover; background-position:right; }
+.section3 { background:#fdfcdf } 
+.section1 h1 { text-align:center; font-weight:300; font-size:36px; }
+
+.section1 .chat { width:520px; margin:80px auto 0; }
+.section1 .chat > div { width:370px; background:#fff; border-radius:4px; padding:20px 20px; margin-bottom:50px; position:relative; font-size:20px; }
+.section1 .chat .left { float:left; }
+.section1 .chat .left::after { content:''; display:block; position:absolute; bottom:-20px; left:15px; width:0; height:0; border:10px solid transparent; border-top-color:white; }
+.section1 .chat .right { float:right; text-align:right; }
+.section1 .chat .right::after { content:''; display:block; position:absolute; bottom:-20px; right:15px; width:0; height:0; border:10px solid transparent; border-top-color:white; }
+
+.section.section2 { padding:0; }
+.section2 .container { float:left; width:52%; background:#fff; }
+.section2.inf .container { float:left; width:52%; background:#fdfcdf; }
+.section2 .content { float:right; width:670px; padding:90px 0; }
+
+.section2 .md_talk { color:#d8cd9a; margin-bottom:10px; font-weight:500; }
+.section2 h2 { font-size:36px; font-weight: 300; }
+.section2 .small { margin-bottom:90px; margin-top:20px; }
+.section2 .body { font-size:20px; letter-spacing: -1; }
+.section2 .body.ingre { font-size:16px; letter-spacing: -1; color:#539a5c; }
+.section2 .body.ingre span { color:#999; }
+.section2 .star { margin:90px 0 40px; width:320px; }
+.section2 .star li { font-size:18px; line-height:27px; float:left; width:50%; }
+.section2 .star li .type { float:left; margin-right:5px; }
+.section2 .star li i { font-size:14px; vertical-align:middle; float:left; line-height: 29px; margin-right:1px; }
+.section2 .star li i.fa-star { color:#d8cd9a }
+.section2 .star li i.fa-star.null { color:#ddd }
+.section2 .gray_font { font-size:14px; color:#cbcbcb; }
+.section2.inf .gray_font { font-size:14px; color:#666; margin-top:40px; }
+.section2.inf .gray_font.more { font-size:12px; color:#999; margin-top:10px; }
+
+.section3 .md_talk { color:#d8cd9a; margin-bottom:10px; font-weight:500; }
+.section3 h2 { font-size:36px; font-weight: 300; }
+.section3 .small { margin-bottom:90px; }
+.section3 { text-align:center; }
+.section3 .list_wrap { text-align:center; }
+.section3 .list { display:inline-block; }
+.section3 .list li { float:left; text-align:left; margin:0 70px; position:relative; }
+.section3 .list li::after { content:''; display:block; position:absolute; top:-5px; left:-40px; background:url(images/check.png); width:29px; height:34px; }
+.section3 .list li .title { font-weight:500; margin-bottom:20px; }
+.section3 .list li .desc { font-size:16px; }
+.shampoo { margin:40px 0 80px; }
+
+.section3 .list_wrap2 { text-align:center; }
+.section3 .list2 { display:inline-block; }
+.section3 .list2 li { float:left; text-align:left; margin:0 70px; position:relative; }
+.section3 .list2 li::after { content:''; display:block; position:absolute; width:1px; height:115px; background:#ddd; top:7px; right:-63px; }
+.section3 .list2 li:last-child::after { display:none; }
+.section3 .list2 li .title { font-weight:500; margin-bottom:20px; }
+.section3 .list2 li .desc { font-size:16px; }
+
+.section4 .md_talk { color:#d8cd9a; margin-bottom:10px; font-weight:500; }
+.section4 h2 { font-size:36px; font-weight: 300; }
+.section4 .small { margin-bottom:90px; }
+.section4 .body { font-size:20px; letter-spacing: -1; }
+.section4 .body strong { font-weight:500; }
+
+.section4 .left_box { float:left; width:50%; }
+.section4 .right_box { float:right; width:50%; height:380px; text-align:right; }
+.section4 .image01 { width:600px; height:370px; background:#eee; display:block; float:right; }
+
+.section4.invert .left_box { width:55%; }
+.section4.invert .left_box img { width:100%; }
+.section4.invert .right_box { text-align:right; width:45%; }
+.section4.invert { background:#fdfcdf }
+.section4.invert .small { margin-bottom:200px; }
+
+.section5 { text-align:center; }
+.section5 .md_talk { color:#d8cd9a; margin-bottom:10px; font-weight:500; }
+.section5 h2 { font-size:36px; font-weight: 300; }
+.section5 .small { margin-bottom:90px; margin-top:40px; }
+
+.table { width:1000px; margin:0 auto; border:1px dotted #ddd; padding:15px; }
+.table_left { width:50%; float:left; background:#fdfcdf; padding:70px 0; }
+.table_right { width:50%; float:right; padding:70px 0; }
+
+.table h3 { font-weight:500; font-size:22px; }
+.table .line { width:30px; height:2px; background:#111; margin:50px auto; }
+.table .desc { font-size:18px; }
+
+.section6 { text-align:center; background:#fdfcdf; }
+.section6 .md_talk { color:#d8cd9a; margin-bottom:10px; font-weight:500; }
+.section6 h2 { font-size:36px; font-weight:300; }
+.section6 .small { margin-bottom:90px; margin-top:40px; }
+
+.section6 .list3 { display:inline-block; margin-top:40px; }
+.section6 .list3 li { float:left; background:#fff; margin:0 35px; width:360px; padding:40px 20px; box-sizing:border-box; height:590px; position:relative; }
+.section6 .list3 li::after { content:''; display:block; position:absolute; top:-60px; left:50%; margin-left:-15px; background:url(images/check.png); width:29px; height:34px; }
+.section6 .list3 li .title { font-weight:400; }
+.section6 .list3 li .text { margin:10px 0 40px; font-size:16px; }
+.section6 .list3 li .desc { font-size:16px; }
+.light_text { color:#999; font-size:14px; margin-top:30px; }
+
+.section4.side .left_box { width:30%; }
+.section4.side .right_box { text-align:right; width:70%; }
+
+.list4 { margin-top:60px; line-height:44px; padding-left:45px; }
+.list4 li { position:relative; }
+.list4 li::after { content:''; display:block; position:absolute; left:-40px; background:url(images/check.png); width:29px; height:34px; top:0  }
+
+.color_img { margin-bottom:30px; }
+
+.section7 .chat { width:800px; margin:80px auto 0; }
+.section7 .chat > div { width:370px; background:#f9f8f8; border-radius:4px; padding:20px 20px; margin-bottom:50px; position:relative; font-size:20px; }
+.section7 .chat .left { float:left; }
+.section7 .chat .left::after { content:''; display:block; position:absolute; bottom:-20px; left:15px; width:0; height:0; border:10px solid transparent; border-top-color:#f9f8f8; }
+.section7 .chat .right { float:right; text-align:right; }
+.section7 .chat .right::after { content:''; display:block; position:absolute; bottom:-20px; right:15px; width:0; height:0; border:10px solid transparent; border-top-color:#f9f8f8; }
+.section7.bottom .md_talk { text-align:center; color:#d8cd9a; margin-bottom:10px; font-weight:500; }
+.section7.bottom h2 { text-align:center; font-size:36px; font-weight:300; }
+.section7.bottom .small { text-align:center; margin-bottom:90px; margin-top:40px; }
+
+.section8 { background:#fdfcdf; }
+.section8 .md_talk { text-align:right; color:#d8cd9a; margin-bottom:10px; font-weight:500; }
+.section8 h2 { text-align:right; font-size:36px; font-weight:300; margin-bottom:40px; }
+.img_left { width:550px; height:520px; background:#ddd; margin-bottom:20px; }
+.img_right { width:550px; height:520px; background:#ddd; float:right; }
+
+.section9 { padding:300px 0; text-align:center; }
+.section9 h2 { font-weight: 400; margin-bottom:60px; }
+.section9 .text { line-height:36px; }
+
+.sample { height:1600px; }
+
+.section1 .chat > div { transform:translateY(50px); opacity:0;  }
+.section1 .chat > div.open { transform:translateY(0px); opacity:1; }
+.section1 .chat > div:nth-child(1) { transition: all .7s ease; }
+.section1 .chat > div:nth-child(2) { transition: all .7s ease .4s; }
+.section1 .chat > div:nth-child(3) { transition: all .7s ease .8s; }
+
+.section7 .chat > div { transform:translateY(50px); opacity:0;  }
+.section7 .chat > div.open { transform:translateY(0px); opacity:1; }
+.section7 .chat > div:nth-child(1) { transition: all .7s ease; }
+.section7 .chat > div:nth-child(2) { transition: all .7s ease .4s; }
+.section7 .chat > div:nth-child(3) { transition: all .7s ease .8s; }
+.section7 .chat > div:nth-child(4) { transition: all .7s ease 1.2s; }
