@@ -100,13 +100,13 @@ h2 { text-align:center; font-size:26px; font-weight: 300; }
 
 .section1 .chat1 > div > div { transform:translateY(50px); opacity:0;  }
 .section1 .chat1 > div > div.open { transform:translateY(0px); opacity:1; }
-.section1 .chat1 > div > div:nth-child(1) { transition: all .7s ease; }
-.section1 .chat1 > div > div:nth-child(2) { transition: all .7s ease .4s; }
-.section1 .chat1 > div > div:nth-child(3) { transition: all .7s ease .8s; }
+.section1 .chat1 > div:nth-child(1) > div { transition: all .7s ease; }
+.section1 .chat1 > div:nth-child(2) > div { transition: all .7s ease .4s; }
+.section1 .chat1 > div:nth-child(3) > div { transition: all .7s ease .8s; }
 
 .section12 .chat1 > div > div { transform:translateY(50px); opacity:0;  }
 .section12 .chat1 > div > div.open { transform:translateY(0px); opacity:1; }
-.section12 .chat1 > div > div:nth-child(1) { transition: all .7s ease; }
-.section12 .chat1 > div > div:nth-child(2) { transition: all .7s ease .4s; }
-.section12 .chat1 > div > div:nth-child(3) { transition: all .7s ease .8s; }
-.section12 .chat1 > div > div:nth-child(4) { transition: all .7s ease 1.2s; }
+.section12 .chat1 > div:nth-child(1) > div { transition: all .7s ease; }
+.section12 .chat1 > div:nth-child(2) > div { transition: all .7s ease .4s; }
+.section12 .chat1 > div:nth-child(3) > div { transition: all .7s ease .8s; }
+.section12 .chat1 > div:nth-child(4) > div { transition: all .7s ease 1.2s; }
