@@ -16,6 +16,27 @@
 </head>
 <body>
 
+    <script>
+        $(document).ready(function(){
+
+            $(window).on('scroll',function(){
+
+                var section1 = $('.mobile.section1').offset().top;
+                var section12 = $('.mobile.section12').offset().top;
+
+                var scroll = $(this).scrollTop();
+
+                if ( scroll >= section1 - 350 ) {
+                    $('.mobile.section1 .chat1 > div > div').addClass('open');
+                }
+
+                if ( scroll >= section12 - 350 ) {
+                    $('.mobile.section12 .chat1 > div > div').addClass('open');
+                }
+            });
+        });    
+    </script>
+
     <div class="mobile section section1">
         <h1>시간이 지날수록 <br /> 예민해지는 두피라면</h1>
         <div class="chat1 clearfix">

@@ -11,10 +11,31 @@
         src="https://code.jquery.com/jquery-1.12.4.js"
         integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
         crossorigin="anonymous"></script>
-    <script src="details.js"></script>
     <title>Document</title>
 </head>
 <body>
+
+    <script>
+        
+        $(document).ready(function(){
+
+            $(window).on('scroll',function(){
+
+                var section1 = $('.desktop.section1').offset().top;
+                var section7 = $('.desktop.section7').offset().top;
+                var scroll = $(this).scrollTop();
+
+                if ( scroll >= section1 - 350 ) {
+                    $('.desktop.section1 .chat > div').addClass('open');
+                }
+
+                if ( scroll >= section7 - 350 ) {
+                    $('.desktop.section7 .chat > div').addClass('open');
+                }
+            });
+        });
+        
+    </script>
 
     <div class="desktop section section1">
         <div class="container">
